@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo Content Review Export"
+  short_description: "Review and export content packages"
+  default_prompt: "Use this skill to review and export photography content packages."

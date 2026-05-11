@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo Content Strategy Plan"
+  short_description: "Plan publishing from classified assets"
+  default_prompt: "Use this skill to build publishing plans from classified photography assets."

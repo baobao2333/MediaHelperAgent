@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo Content Orchestrator"
+  short_description: "Coordinate Codex photo content workflows"
+  default_prompt: "Use this skill to coordinate a Codex-native photography content workflow."

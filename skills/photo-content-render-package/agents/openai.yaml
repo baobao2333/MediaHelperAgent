@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo Content Render Package"
+  short_description: "Render EDLs into content packages"
+  default_prompt: "Use this skill to render video drafts and package post outputs from EDLs."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo Content Classify Tags"
+  short_description: "Classify assets and write visual tags"
+  default_prompt: "Use this skill to classify assets from images and frame sheets into domains and tags."

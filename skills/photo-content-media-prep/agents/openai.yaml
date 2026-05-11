@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo Content Media Prep"
+  short_description: "Prepare media assets for Codex review"
+  default_prompt: "Use this skill to scan media, extract metadata, and create frame sheets for Codex."

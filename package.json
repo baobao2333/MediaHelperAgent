@@ -1,0 +1,31 @@
+{
+  "name": "photography-content-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "photo-agent": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit",
+    "photo-agent": "tsx src/cli.ts",
+    "project:init": "tsx src/cli.ts project:init",
+    "media:import": "tsx src/cli.ts media:import",
+    "media:analyze": "tsx src/cli.ts media:analyze",
+    "package:scaffold": "tsx src/cli.ts package:scaffold",
+    "package:validate": "tsx src/cli.ts package:validate"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.3.0",
+    "ffprobe-static": "^3.1.0",
+    "sharp": "^0.34.5",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
