@@ -11,6 +11,7 @@
     "build": "tsc -p tsconfig.json",
     "check": "tsc --noEmit",
     "photo-agent": "tsx src/cli.ts",
+    "setup:skills": "node scripts/install-skills.mjs",
     "project:init": "tsx src/cli.ts project:init",
     "media:import": "tsx src/cli.ts media:import",
     "media:analyze": "tsx src/cli.ts media:analyze",
