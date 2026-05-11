@@ -6,7 +6,7 @@
 
 ```text
 请帮我安装并配置这个项目：
-https://github.com/baobao2333/mediahelperagent
+https://github.com/baobao2333/MediaHelperAgent
 
 要求：
 1. clone 仓库。

@@ -1,4 +1,4 @@
-# Media Helper Agent 中文说明
+# MediaHelperAgent 中文说明
 
 这是一个 Codex-native 摄影内容 Agent 工具包。它负责把本地照片/视频素材整理成 Codex 容易理解的结构化输入，然后由 Codex 完成分类、策略、排期、打包和审查。
 
@@ -11,7 +11,7 @@
 ```text
 请安装并配置这个 Codex-native 摄影内容工具包：
 
-1. Clone https://github.com/baobao2333/mediahelperagent
+1. Clone https://github.com/baobao2333/MediaHelperAgent
 2. 进入仓库目录。
 3. 运行 npm install。
 4. 运行 npm run setup:skills，把仓库内置的 photo-content-* skills 安装到全局 Codex skills 目录。
@@ -24,8 +24,8 @@
 ## 手动安装
 
 ```bash
-git clone https://github.com/baobao2333/mediahelperagent
-cd mediahelperagent
+git clone https://github.com/baobao2333/MediaHelperAgent
+cd MediaHelperAgent
 npm install
 npm run setup:skills
 npm run build

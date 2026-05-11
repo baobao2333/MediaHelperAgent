@@ -1,4 +1,4 @@
-# Media Helper Agent
+# MediaHelperAgent
 
 Codex-native photography content agent toolkit. It prepares local photo/video assets for Codex, then lets Codex classify, plan, package, and review publishable content.
 
@@ -11,7 +11,7 @@ Paste this into Codex when setting up from GitHub:
 ```text
 Clone and set up this Codex-native photography content toolkit:
 
-1. Clone https://github.com/baobao2333/mediahelperagent
+1. Clone https://github.com/baobao2333/MediaHelperAgent
 2. Enter the repo.
 3. Run npm install.
 4. Run npm run setup:skills to install the bundled photo-content-* skills into the global Codex skills directory.
@@ -24,8 +24,8 @@ Clone and set up this Codex-native photography content toolkit:
 ## Manual Setup
 
 ```bash
-git clone https://github.com/baobao2333/mediahelperagent
-cd mediahelperagent
+git clone https://github.com/baobao2333/MediaHelperAgent
+cd MediaHelperAgent
 npm install
 npm run setup:skills
 npm run build
