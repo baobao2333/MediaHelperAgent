@@ -35,6 +35,24 @@ Rendering is deterministic. Codex writes or reviews the EDL; scripts execute FFm
 5. Product content should keep the item clear.
 6. Event content should avoid unhandled privacy risks.
 
+## Dynamic Photo And Stop-Motion Portrait Cuts
+
+Use these rules when turning short portrait videos into extracted-frame edits, dynamic photo albums, or stop-motion gesture sequences:
+
+1. Prioritize beauty-frame quality over action completeness. A still frame should be usable as a standalone screenshot before it is allowed into the sequence.
+2. Keep action continuity by using one source clip or one visually consistent scene for the main gesture. Avoid mixing similar clips when it makes the body position, glasses, background, or camera distance jump.
+3. Remove elevator, background, outfit, or lighting changes unless they are intentional scene changes.
+4. Reject keyframes with face-blocking hands, heavy hand blur, awkward expressions, or unstable composition. Do not rescue a jump with an ugly still.
+5. Build gestures as a clear arc: ready pose -> hands rise -> pre-contact pose -> contact or hidden bridge -> recovery -> final beauty hold.
+6. Use different timing classes:
+   - beauty hold: 0.60-1.15 seconds
+   - action beat: 0.16-0.22 seconds
+   - motion bridge: 0.12-0.30 seconds
+7. Keep action beats fixed and fast. Apply subtle drift only to beauty holds, not every extracted frame.
+8. Hide unavoidable jumps with a very short real-motion bridge from the source video instead of inserting blurred or face-blocking stills.
+9. Review a selected-keyframe sheet before rendering the final video. The sheet should show chronological continuity and no rejected frame types.
+10. Keep filters restrained: light warmth, gentle face brightness, minimal vignette, and no heavy flash transitions unless the music specifically calls for it.
+
 ## Output
 
 Expected post folder:
